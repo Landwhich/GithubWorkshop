@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./static/reset.css">
+        <link rel="stylesheet" href="./static/navstyles.css">
+        <link rel="stylesheet" href="./static/portfolio.css">
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <ul id="nav" class="header" style="border: 50px  red">
+            <div class="header-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="https://carleton.ca/engineering-design/about">Fav Site</a></li>
+                <li><a href="mailto:info_engdesign@carleton.ca">Contact me</a></li>
+            </div>   
+        </ul>
+
+        <!-- BACKGROUND PARALLAX -->
+        <div class="bg-parallax" style="position: fixed; height:100vh; background-color: black;">
+            <div style="margin: 45vh 12.5% 0 12.5%; width: 75%;">
+                <a href="menu.html" class="button">Menu</a>
+                <p style="margin: 28px 0; color: aliceblue; font-size: 1.2em; text-shadow: 0 0 5px black">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+            </div>
+        </div>
+
+        <div style="height: 50vh; width: 100vw; position:absolute; margin-top:75vh; display: grid;"></div>
+            <div class="fg-parallax" style="background-color: rgb(20, 90 ,20); padding: 75px 12.5%; width: 75%">
+                <p style="color: white;">Test test test</p>
+                <div style="
+                padding-top: 900px;
+                width:100%;
+                border: 0.5vw outset blue;
+                background-color: white;
+                z-index: 10000;
+                color: white;
+                justify-self: center;
+                ">hey</div>
+            </div>
+        </div>
+
+        <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
+        <!-- NAV SCRIPT -->
+        <script src="scripts/nav.js"></script>
+    </body>
+</html>
