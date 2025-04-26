@@ -1,19 +1,17 @@
 .header{
     padding: 0 12.5%;
     width:75%;
-    height:50px;
+    height:80px;
     z-index:1000;
     position:fixed;
     display:flex;
     /* color:red; */
     text-decoration: none;
     align-items: center;
-    background-color: rgba(00,64,35);
     transition: height 0.5s ease, background-color 0.5s ease;
 }
 .header.collapse {
-    height:35px;
-    background-color: rgba(35, 100, 50, 0.35);
+    height:40px;
 }
 
 .header-list{
@@ -30,11 +28,13 @@
 }
 
 .header>div>li>a{
+    transition: color 0.25s;
     color: rgba(222,222,222);
 }
 .header>div>li>a:visited{
     color: rgba(222,222,222);
 }
 .header>div>li>a:hover{
+    transition: color 0.25s;
     color: rgba(222,222,222, 0.5);
 }

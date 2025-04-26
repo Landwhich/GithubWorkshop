@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <script src="./scripts/smoothScroll.js"></script>
+
         <link rel="stylesheet" href="./static/reset.css">
         <link rel="stylesheet" href="./static/navstyles.css">
+        <link rel="stylesheet" href="./static/portfolio.css">
     </head>
     <body>
         <!-- NAVBAR -->
@@ -14,11 +17,64 @@
                 <li><a href="mailto:info_engdesign@carleton.ca">Contact me</a></li>
             </div>   
         </ul>
+        
 
+        <!-- MAIN LANDING -->
+        <div style="background-color: #111111;">
         <div class="main-landing">
-            
+
+            <div style="margin: 45vh 0 30vh 0;">
+                <h2>Hi, I'm Will</h2>
+                <p style="margin: 28px 0;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                </p>
+            </div>
+
+            <!-- ARROW BUTTON TOP -->
+            <div class="arrow-container">
+                <img src="./static/images/image.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('target')"></button>
+            </div>
+
+            <!-- PORTFOLIO GRID -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-item-text">
+                        <br>
+                        ajhkd
+                    </div>
+                    <img 
+                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
+                    class="portfolio-image">
+                </div>
+                <div class="portfolio-item">
+                    <img 
+                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
+                    class="portfolio-image">
+                </div>
+                <div class="portfolio-item">
+                    <img 
+                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
+                    class="portfolio-image">
+                </div>
+                <div class="portfolio-item">
+                    <img 
+                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
+                    class="portfolio-image">
+                </div>
+                <div class="portfolio-item">
+                    <img
+                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
+                    class="portfolio-image">
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 100vh">howdy<br>hey<p id="target"></p></div>
 
         </div>
+
         <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
         <!-- NAV SCRIPT -->
         <script src="scripts/nav.js"></script>

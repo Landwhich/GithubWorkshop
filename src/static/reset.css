@@ -8,4 +8,5 @@
 
 body{
     display: grid;
+    overscroll-behavior: none;
 }
