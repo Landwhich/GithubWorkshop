@@ -4,9 +4,9 @@
     /* position:; */
 }
 
-.arrow-container{
-    margin: 0 33.5vw;
-    padding-bottom: 20%;
+.arrow-button-container{
+    margin: 10vh 33.5vw;
+    padding-bottom: 15vw;
 }
 
 .arrow-icon{
@@ -30,17 +30,15 @@
     cursor: pointer;
 }
 
-.portfolio-grid{
-    /* height: 150vh; */
-    /* position: fixed; */
-    grid-gap: 2vw;
+.portfolio-buttons-grid{
+    grid-gap: 1.50vw;
     display:grid;
     grid-template-columns: 12vw 12vw 12vw 12vw 12vw;
 }
 
-.portfolio-item{
+.portfolio-button{
+    border-radius: 10px;
     display:inline-flex;
-    /* justify-self: center; */
     align-self: center;
     justify-content: center;
     align-content: center;
@@ -51,23 +49,58 @@
     overflow: hidden;
 }
 
-.portfolio-item-text{
+.portfolio-button-text{
+    border-radius: 10px;
+    font-weight: bold;
+    border-style: none;
+    font-size: 1rem;
     width: 12vw;
     height: 12vw;
     position:absolute;
-    text-align: center;
-    transition: background-color 0.5s, color 0.25s;
+    transition: background-color 0.5s, box-shadow 0.25s, color 0.25s;
+    box-shadow: none;
     color: rgba(0,0,0,0);
     background-color: rgba(0,0,0,0);
 }
 
-.portfolio-item-text:hover{
-    transition: background-color 0.5s, color 0.25s;
+.portfolio-button-text:hover{
+    transition: background-color 0.5s, box-shadow 0.25s, color 0.25s;
+    box-shadow: 0 0 8px 0 rgba(50,50,50,1);
     color: white;
     background-color: rgba(0,0,0,0.5);
 }
 
-.portfolio-image{
-    max-height:12vw;
-    /* max-width: 12vw; */
+.portfolio-button-image{
+    width: 100%;
+    height:auto;
+    object-fit:cover;
+}
+
+.portfolio-item-image{
+    position: relative;
+    width: 100%;
+    height:auto;
+    object-fit:cover;
+}
+
+.portfolio-item-header{
+    text-shadow: 0 0 5px black;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.portfolio-item-image-container{
+    position: relative;
+    text-align: center;
+    justify-items:center;
+    margin: 3vh 0;
+    display:flex;
+    justify-content: center;
+    height: 20vw;
+    width: 70vw;
+    overflow: hidden;
+    border-radius: 10px;
 }

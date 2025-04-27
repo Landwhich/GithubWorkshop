@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- SCRIPTS -->
         <script src="./scripts/smoothScroll.js"></script>
 
+        <!-- MONTSERRRAT -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- STYLING -->
         <link rel="stylesheet" href="./static/reset.css">
         <link rel="stylesheet" href="./static/navstyles.css">
         <link rel="stylesheet" href="./static/portfolio.css">
@@ -23,56 +30,166 @@
         <div style="background-color: #111111;">
         <div class="main-landing">
 
-            <div style="margin: 45vh 0 30vh 0;">
-                <h2>Hi, I'm Will</h2>
-                <p style="margin: 28px 0;">
+            <!-- INTRO PARAGRAPH -->
+            <div style="margin: 45vh 0 20vh 0;">
+                <h1>Hi, I'm Will</h1>
+                <h3 style="margin: 28px 0;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                </p>
+                </h3>
             </div>
 
             <!-- ARROW BUTTON TOP -->
-            <div class="arrow-container">
-                <img src="./static/images/image.png" class="arrow-icon">
-                <button class="arrow-button" onclick="smoothScroll('target')"></button>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-down.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('target',)"></button>
             </div>
 
-            <!-- PORTFOLIO GRID -->
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-item-text">
-                        <br>
+            <!-- PORTFOLIO BUTTONS GRID -->
+            <h1 style="margin: 10vh 0 0 0" id="portfolio-grid">Click The Buttons for More Info</h1>
+            <h3 style="margin: 5vh 0;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            </h3>
+            <div class="portfolio-buttons-grid" style="margin-bottom: 10vh">
+                <div class="portfolio-button">
+                    <button class="portfolio-button-text">
                         ajhkd
-                    </div>
+                    </button>
                     <img 
-                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
-                    class="portfolio-image">
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/P_CarletonPhotography_VirtualTour_170122-13-scaled.jpg"
+                    class="portfolio-button-image">
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-button">
+                    <button class="portfolio-button-text">
+                        ajhkd
+                    </button>
                     <img 
-                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
-                    class="portfolio-image">
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/Carleton-University-Alumni-Hall_400x300_400x300_acf_cropped_400x300_acf_cropped-300x200.png"
+                    class="portfolio-button-image">
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-button">
+                    <button class="portfolio-button-text">
+                        ajhkd
+                    </button>
                     <img 
-                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
-                    class="portfolio-image">
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/From-Blocks-to-Blueprints-How-a-Carleton-Engineering-Grad-is-Shaping-Cities-with-Minecraft-300x200.jpg"
+                    class="portfolio-button-image">
                 </div>
-                <div class="portfolio-item">
+                <div class="portfolio-button">
+                    <button class="portfolio-button-text">
+                        ajhkd
+                    </button>
                     <img 
-                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
-                    class="portfolio-image">
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/seed-planting-robots-1200x800-1-300x200.jpg"
+                    class="portfolio-button-image">
                 </div>
-                <div class="portfolio-item">
-                    <img
-                    src="https://carleton.ca/apclab/wp-content/uploads/sites/47/rendered.jpg"
-                    class="portfolio-image">
+                <div class="portfolio-button">
+                    <button class="portfolio-button-text">
+                        ajhkd
+                    </button>
+                    <img 
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/construction-robots-1200x800-4-300x200.jpg"
+                    class="portfolio-button-image">
                 </div>
             </div>
+            
+
+            <!-- PORTFOLIO SECTION 1 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-image-container">
+                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <img 
+                    class="portfolio-item-image"
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/P_CarletonPhotography_VirtualTour_170122-13-scaled.jpg">
+                </div>
+                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
+                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
+                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+            </div>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-up.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
+            </div>
+
+            <!-- PORTFOLIO SECTION 2 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-image-container">
+                    <h1 class="portfolio-item-header">From Campus to Community</h1>
+                    <img 
+                    class="portfolio-item-image"
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/Carleton-University-Alumni-Hall_400x300_400x300_acf_cropped_400x300_acf_cropped-300x200.png">
+                </div>
+                <h1 style="margin: 3vh 0">The Power of Giving - April 17</h1>
+                <h3>Philanthropy at Carleton takes many forms, and faculty and staff play a vital role in fostering a culture of giving on campus. Professors Janine Debanné and Yvan Labiche are among those making a difference—not just as educators, but as dedicated donors committed to supporting student success. <br><br>
+
+                    Debanné, an Associate Professor at the Azrieli School of Architecture, and Labiche, Chair of the Department of Systems and Computer Engineering, both joined Carleton in January 2001. Their journey together began on campus, where they met in the then faculty club in 2003 and later married in 2006. Over the years, their commitment to Carleton has extended beyond the classroom, embracing philanthropy as a shared value.<br><br>
+                    
+                    Debanné has been a monthly donor through payroll deduction since 2005, and Labiche followed in 2011. Their contributions have become a meaningful way to create change and directly impact students’ lives. Each was inspired to give in their own way. <br><br>
+                    
+                    “Carleton gave me so much – my undergraduate degree and the chance to work in a profession I loved, and later, an interesting and enriching teaching career. So, there were lots of reasons to give back,” says Debanné.<br><br></h3>
+            </div>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-up.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
+            </div>
+            
+
+
+            <!-- PORTFOLIO SECTION 3 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-image-container">
+                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <img 
+                    class="portfolio-item-image"
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/From-Blocks-to-Blueprints-How-a-Carleton-Engineering-Grad-is-Shaping-Cities-with-Minecraft-300x200.jpg">
+                </div>
+                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
+                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
+                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+            </div>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-up.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
+            </div>
+
+
+            <!-- PORTFOLIO SECTION 4 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-image-container">
+                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <img 
+                    class="portfolio-item-image"
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/seed-planting-robots-1200x800-1-300x200.jpg">
+                </div>
+                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
+                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
+                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+            </div>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-up.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
+            </div>
+
+
+            <!-- PORTFOLIO SECTION 5 -->
+            <div class="portfolio-item">
+                <div class="portfolio-item-image-container">
+                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <img 
+                    class="portfolio-item-image"
+                    src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/construction-robots-1200x800-4-300x200.jpg">
+                </div>
+                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
+                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
+                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+            </div>
+            <div class="arrow-button-container">
+                <img src="./static/images/arrow-up.png" class="arrow-icon">
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
+            </div>
+
         </div>
-
-        <div style="margin-top: 100vh">howdy<br>hey<p id="target"></p></div>
-
         </div>
 
         <!-- SCRIPTS TO LOAD AFTER DOM IS LOADED -->
