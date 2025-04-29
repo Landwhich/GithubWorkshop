@@ -32,7 +32,7 @@
 
             <!-- INTRO PARAGRAPH -->
             <div style="margin: 45vh 0 20vh 0;">
-                <h1>Hi, I'm Will</h1>
+                <h1>Hi, I'm [ your name ]</h1>
                 <h3 style="margin: 28px 0;">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -42,7 +42,7 @@
             <!-- ARROW BUTTON TOP -->
             <div class="arrow-button-container">
                 <img src="./static/images/arrow-down.png" class="arrow-icon">
-                <button class="arrow-button" onclick="smoothScroll('target',)"></button>
+                <button class="arrow-button" onclick="smoothScroll('portfolio-grid', -200)"></button>
             </div>
 
             <!-- PORTFOLIO BUTTONS GRID -->
@@ -53,40 +53,50 @@
             </h3>
             <div class="portfolio-buttons-grid" style="margin-bottom: 10vh">
                 <div class="portfolio-button">
-                    <button class="portfolio-button-text">
-                        ajhkd
+                    <button 
+                    class="portfolio-button-text"
+                    onclick="smoothScroll('section-1', -200)">
+                        Carleton FED
                     </button>
                     <img 
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/P_CarletonPhotography_VirtualTour_170122-13-scaled.jpg"
                     class="portfolio-button-image">
                 </div>
                 <div class="portfolio-button">
-                    <button class="portfolio-button-text">
-                        ajhkd
+                    <button 
+                    class="portfolio-button-text"
+                    onclick="smoothScroll('section-2', -200)">
+                        Campus to Community
                     </button>
                     <img 
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/Carleton-University-Alumni-Hall_400x300_400x300_acf_cropped_400x300_acf_cropped-300x200.png"
                     class="portfolio-button-image">
                 </div>
                 <div class="portfolio-button">
-                    <button class="portfolio-button-text">
-                        ajhkd
+                    <button 
+                    class="portfolio-button-text"
+                    onclick="smoothScroll('section-3', -200)">
+                        From Blocks to Blueprints
                     </button>
                     <img 
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/From-Blocks-to-Blueprints-How-a-Carleton-Engineering-Grad-is-Shaping-Cities-with-Minecraft-300x200.jpg"
                     class="portfolio-button-image">
                 </div>
                 <div class="portfolio-button">
-                    <button class="portfolio-button-text">
-                        ajhkd
+                    <button 
+                    class="portfolio-button-text"
+                    onclick="smoothScroll('section-4', -200)">
+                        Mangroves
                     </button>
                     <img 
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/seed-planting-robots-1200x800-1-300x200.jpg"
                     class="portfolio-button-image">
                 </div>
                 <div class="portfolio-button">
-                    <button class="portfolio-button-text">
-                        ajhkd
+                    <button 
+                    class="portfolio-button-text"
+                    onclick="smoothScroll('section-5', -200)">
+                        Collaborative Robotics
                     </button>
                     <img 
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/construction-robots-1200x800-4-300x200.jpg"
@@ -96,7 +106,7 @@
             
 
             <!-- PORTFOLIO SECTION 1 -->
-            <div class="portfolio-item">
+            <div id="section-1" class="portfolio-item">
                 <div class="portfolio-item-image-container">
                     <h1 class="portfolio-item-header">Carleton FED</h1>
                     <img 
@@ -104,7 +114,7 @@
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/P_CarletonPhotography_VirtualTour_170122-13-scaled.jpg">
                 </div>
                 <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
-                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
+                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.<br><br>
                     Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
             </div>
             <div class="arrow-button-container">
@@ -113,7 +123,7 @@
             </div>
 
             <!-- PORTFOLIO SECTION 2 -->
-            <div class="portfolio-item">
+            <div id="section-2" class="portfolio-item">
                 <div class="portfolio-item-image-container">
                     <h1 class="portfolio-item-header">From Campus to Community</h1>
                     <img 
@@ -127,7 +137,7 @@
                     
                     Debanné has been a monthly donor through payroll deduction since 2005, and Labiche followed in 2011. Their contributions have become a meaningful way to create change and directly impact students’ lives. Each was inspired to give in their own way. <br><br>
                     
-                    “Carleton gave me so much – my undergraduate degree and the chance to work in a profession I loved, and later, an interesting and enriching teaching career. So, there were lots of reasons to give back,” says Debanné.<br><br></h3>
+                    “Carleton gave me so much – my undergraduate degree and the chance to work in a profession I loved, and later, an interesting and enriching teaching career. So, there were lots of reasons to give back,” says Debanné.</h3>
             </div>
             <div class="arrow-button-container">
                 <img src="./static/images/arrow-up.png" class="arrow-icon">
@@ -137,16 +147,19 @@
 
 
             <!-- PORTFOLIO SECTION 3 -->
-            <div class="portfolio-item">
+            <div id="section-3" class="portfolio-item">
                 <div class="portfolio-item-image-container">
-                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <h1 class="portfolio-item-header">From Blocks to Blueprints</h1>
                     <img 
                     class="portfolio-item-image"
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/From-Blocks-to-Blueprints-How-a-Carleton-Engineering-Grad-is-Shaping-Cities-with-Minecraft-300x200.jpg">
                 </div>
-                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
-                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
-                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+                <h1 style="margin: 3vh 0">How a Carleton Engineering Grad is Shaping Cities with Minecraft</h1>
+                <h3>Matt Holmes isn’t your typical engineering grad. After earning a degree from Carleton University’s Architectural Conservation and Sustainability Engineering program, he became an airport planner at Vancouver International Airport and a YouTube sensation.<br><br>
+
+                    Through his channel, Alpine Builds, Holmes has built a global following teaching realistic city design using Minecraft — inspiring future architects and engineers one block at a time.<br><br>
+                    
+                    Holmes credits Carleton for giving him the tools to turn a childhood curiosity into a thriving creative career. The university’s distinctive engineering program — and the opportunities it offered — gave him the knowledge, experience and confidence to transform his interest in building virtual cities into real-world impact.</h3>
             </div>
             <div class="arrow-button-container">
                 <img src="./static/images/arrow-up.png" class="arrow-icon">
@@ -155,16 +168,19 @@
 
 
             <!-- PORTFOLIO SECTION 4 -->
-            <div class="portfolio-item">
+            <div id="section-4" class="portfolio-item">
                 <div class="portfolio-item-image-container">
-                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <h1 class="portfolio-item-header">Mangroves are very impressive plants</h1>
                     <img 
                     class="portfolio-item-image"
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/seed-planting-robots-1200x800-1-300x200.jpg">
                 </div>
-                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
-                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
-                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+                <h1 style="margin: 3vh 0">Carleton Student Fights Climate Change with Seed Planting Robot</h1>
+                <h3>A type of woody tree or shrub that grows along tropical or subtropical coastlines, they have evolved to thrive in salty, low-oxygen terrain.<br><br>
+
+                    Thanks to this resilience, mangroves help protect shorelines from waves and storm surges, reducing the risk of flooding. Their dense root networks bind soil in place, mitigating the impact of erosion and rising seas. They also improve water quality through filtration, support biodiversity by providing habitat for animals and other plants and sequester significantly more carbon than mature tropical forests.<br><br>
+                    
+                    Planting mangrove seeds to boost this natural defence system is a labour-intensive process, but Carleton University student Stefan Teodorescu has come up with a creative, high-tech and very impressive solution.</h3>
             </div>
             <div class="arrow-button-container">
                 <img src="./static/images/arrow-up.png" class="arrow-icon">
@@ -173,16 +189,19 @@
 
 
             <!-- PORTFOLIO SECTION 5 -->
-            <div class="portfolio-item">
+            <div id="section-5" class="portfolio-item">
                 <div class="portfolio-item-image-container">
-                    <h1 class="portfolio-item-header">Carleton FED</h1>
+                    <h1 class="portfolio-item-header">Collaborative Robots</h1>
                     <img 
                     class="portfolio-item-image"
                     src="https://carleton.ca/engineering-design/wp-content/uploads/sites/63/2025/04/construction-robots-1200x800-4-300x200.jpg">
                 </div>
-                <h1 style="margin: 3vh 0">Make Carleton Your First Choice for Engineering and Design</h1>
-                <h3>As one of the nation’s leading institutions in the study and research of engineering, architecture, industrial design, and information technology, Carleton provides students with an environment that is challenging, diverse and flexible.
-                    Our comprehensive platform of programs prepares graduates for rewarding careers in the real world, by equipping them with the knowledge and skills that are highly desirable in today’s fast-paced, technology-driven society.</h3>
+                <h1 style="margin: 3vh 0">Carleton’s Collaborative Robots Represent the Future of Construction</h1>
+                <h3>The construction industry is notoriously resistant to change. Projects can be extremely complex, with architects, engineers, builders and subcontractors guided by different, sometimes competing priorities. They’re also typically risk-averse — or, to be blunt, set in their ways.<br><br>
+
+                    New modes of collaboration and new technologies are the key to modernizing how we build. This is an urgent need in Canada, considering the country’s severe housing shortage, the importance of adopting more sustainable processes and materials, and an impending wave of retirements that will see about 20 per cent of the sector’s workforce hang up their hammers by the end of the decade.<br><br>
+                    
+                    Enter Thelma and Louise.</h3>
             </div>
             <div class="arrow-button-container">
                 <img src="./static/images/arrow-up.png" class="arrow-icon">
