@@ -75,9 +75,12 @@ Important to change the text and `src` attribute in the `img` tag, as well as th
 3. Give your Website a title and icon image
 
 right now your page looks like this
-!(./README_images/siteTitle.png)
+<img src="./README_images/siteTitle.png">
+or something like this. your title or icon may vary, but it will have a default appearance
 
-add a title by adding text
+add a title by adding text between title tags: `<title></title>`
+
+then add an icon by adding this tag inside your `<head></head>` tags (these are near the top). '<link rel="icon" type="image/x-icon" href="/images/favicon.ico">' you will want to change the `href` field. this can be a web link (think http) or a link to a remote location (like the link used here). this is your reference to the image you want to use, you may want to use the `style` attribute to modify how it looks. 
 
 4. Play Around with different stylings
 
