@@ -117,11 +117,10 @@ git commit -m "some random message here to label your changes"
 ```
 git push --set-upstream origin master
 ```
-
-
-- after you've created your forked version, navigate to "settings" and the "pages" subsection
-- Select deploy from master branch and check out your site
+- after you've synched your changes, return to your project page on github, navigate to "settings" and the "pages" subsection
 <br><img src="./README_images/branchDeployment.png"><br>
+- Select deploy from master branch and check out your site using your the link at top of the page, usually: `yourusername.github.io` (*There is often a delay (~2 mins) from deployment to your site being visble*)
+- test your site on your friend's computer, they should be able to see it
 
 
 
