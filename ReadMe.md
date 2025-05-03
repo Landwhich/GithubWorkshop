@@ -5,7 +5,7 @@
 [Github Guide to creating an account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
 - Click on [this link](https://github.com/Landwhich/GithubWorkshop)(If you don't already have the github page open) and sign in with your account
-- Click on the fork button, then name your forked version, and keep the default settings
+- Click on the fork button, then name your forked version, and keep the default settings. Then click "create fork"
 <br><img src="./README_images/forking.png"><br>
 - On the main page of your new "fork" there will be a green `<> code` button open the dropdown, then copy the whole link
 <br><img src="./README_images/gitClone.png"><br>
@@ -87,7 +87,9 @@ or something like this. your title or icon may vary, but it will have a default 
 
 add a title by adding text between title tags: `<title></title>`
 
-then add an icon by adding this tag inside your `<head></head>` tags (these are near the top). '<link rel="icon" type="image/x-icon" href="/images/favicon.ico">' you will want to change the `href` field. this can be a web link (think http) or a link to a remote location (like the link used here). this is your reference to the image you want to use, you may want to use the `style` attribute to modify how it looks. 
+then add an icon by adding this tag inside your `<head></head>` tags (these are near the top). 
+```<link rel="icon" type="image/x-icon" href="/images/favicon.ico">``` 
+you will want to change the `href` field. this can be a web link (think http) or a link to a remote location (like the link used here). this is your reference to the image you want to use. Either is fine but you may find it simpler to just use an image link from the internet. You may also want to use the `style` attribute to modify how your icon looks. 
 
 4. Play Around with different stylings
 
@@ -98,11 +100,28 @@ We can't cover everything in a workshop but these are excellent resources for re
 [W3 Schools - HTML](https://www.w3schools.com/html/)
 [W3 Schools - CSS](https://www.w3schools.com/css/)
 
-## Deploying your site
+## Deploying your site (last 20 minutes)
+
+The site looks great now, but you may notice its url starts with `localhost`. This means that your website is hosted locally, only 
+you can see it right now. 
+
+To share it with other people we will be using github's free hosting service "github pages". first you'll need to update github with your changes. 
+
+in your terminal, run these commands: 
+```
+git add .
+```
+```
+git commit -m "some random message here to label your changes"
+```
+```
+git push --set-upstream origin master
+```
+
 
 - after you've created your forked version, navigate to "settings" and the "pages" subsection
 - Select deploy from master branch and check out your site
-<br><img src="./README_images/siteTitle.png"><br>
+<br><img src="./README_images/branchDeployment.png"><br>
 
 
 
