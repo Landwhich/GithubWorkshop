@@ -1,15 +1,22 @@
 # Create Your Portfolio on Pages
 
-### Create an Account at https://github.com/
+### Create an Account at https://github.com/ and setup your project
 
 [Github Guide to creating an account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
 - Click on [this link](https://github.com/Landwhich/GithubWorkshop)(If you don't already have the github page open) and sign in with your account
-- click on the fork button, then name your forked version, and keep the default settings
-- after you've created your forked version, navigate to "settings" and the "pages" subsection
-- Select deploy from master branch and check out your site
+- Click on the fork button, then name your forked version, and keep the default settings
+<br><img src="./README_images/forking.png"><br>
+- On the main page of your new "fork" there will be a green `<> code` button open the dropdown, then copy the whole link
+<br><img src="./README_images/gitClone.png"><br>
+- Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, open a new project folder, you will have to make one and then open it
+- Once you have opened your project: `ctrl + /``, this will open the terminal for your project
+- In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url may vary, git clone is the important part here)
+- Now your project will be open inside vscode. You will want to use the "live server" extension to view changes to your project in real time. you can activate live server by right clicking inside your index.html file. 
+- (download live server inside the extensions panel): 
+<br><img src="./README_images/liveServer.png"><br>
 
-### HTML and css basics
+## HTML and css basics
 
 html code is built up of "tags" that look like this `<div></div>`. Most elements have an opening and closing tag and will have tags nexted inside them:
 ```
@@ -30,7 +37,7 @@ One important attribute is `class`. Elements with a class can be referenced in a
 ```
 here, the colour is changed using an rgba field, a transition is applied to the background colour (when the colour changes) and the mouse pointer icon is changed. the `arrow-button` class has the `hover` state specificer indicated by the `:` this means the color and pointer will be changed only when hovering over this element
 
-### Tasks
+## Tasks
 
 1. Change Global Font Default
 
@@ -75,7 +82,7 @@ Important to change the text and `src` attribute in the `img` tag, as well as th
 3. Give your Website a title and icon image
 
 right now your page looks like this
-<img src="./README_images/siteTitle.png">
+<br><img src="./README_images/siteTitle.png"><br>
 or something like this. your title or icon may vary, but it will have a default appearance
 
 add a title by adding text between title tags: `<title></title>`
@@ -91,6 +98,11 @@ We can't cover everything in a workshop but these are excellent resources for re
 [W3 Schools - HTML](https://www.w3schools.com/html/)
 [W3 Schools - CSS](https://www.w3schools.com/css/)
 
+## Deploying your site
+
+- after you've created your forked version, navigate to "settings" and the "pages" subsection
+- Select deploy from master branch and check out your site
+<br><img src="./README_images/siteTitle.png"><br>
 
 
 
