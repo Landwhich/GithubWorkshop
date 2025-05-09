@@ -5,13 +5,14 @@
 [Github Guide to creating an account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
 - Click on [this link](https://github.com/Landwhich/GithubWorkshop)(If you don't already have the github page open) and sign in with your account
-- Click on the fork button, then name your forked version, and keep the default settings. Then click "create fork"
+- Scroll to the top and click on the fork button, then name your forked version, and keep the default settings. Then click "create fork"
 <br><img src="./README_images/forking.png"><br>
 - On the main page of your new "fork" there will be a green `<> code` button open the dropdown, then copy the whole link
 <br><img src="./README_images/gitClone.png"><br>
-- Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, open a new project folder, you will have to make one and then open it
-- Once you have opened your project: `ctrl + /``, this will open the terminal for your project
-- In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url may vary, git clone is the important part here)
+- Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, click "open folder", then right click insdie the finder "new > folder". After making a new folder, double click and then select "open folder"
+<br><img src="./README_images/vscodeIcon.png"><br>
+- Once you have opened your project: `ctrl + ~`, this will open the terminal for your project
+- In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url may vary, git clone is the important part here) your url will be whatever url you copied from your fork under the green `<> code` button
 - Now your project will be open inside vscode. You will want to use the "live server" extension to view changes to your project in real time. you can activate live server by right clicking inside your index.html file. 
 - (download live server inside the extensions panel): 
 <br><img src="./README_images/liveServer.png"><br>
