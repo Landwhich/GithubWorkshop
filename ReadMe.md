@@ -110,7 +110,7 @@ you can see it right now.
 
 To share it with other people we will be using github's free hosting service "github pages". first you'll need to update github with your changes. 
 
-in your terminal, run these commands: 
+in your terminal, run these commands (after entering each command in individually, press enter to run them): 
 ```
 git add .
 ```
