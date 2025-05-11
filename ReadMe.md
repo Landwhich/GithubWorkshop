@@ -9,7 +9,7 @@
 <br><img src="./README_images/forking.png"><br>
 - On the main page of your new "fork" there will be a green `<> code` button open the dropdown, then copy the whole link
 <br><img src="./README_images/gitClone.png"><br>
-- Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, click "open folder", then right click insdie the finder "new > folder". After making a new folder, double click and then select "open folder"
+- Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, click "open folder", then right click inside the finder "new > folder". After making a new folder, double click and then select "open folder"
 <br><img src="./README_images/vscodeIcon.png"><br>
 - Once you have opened your project: `ctrl + ~`, this will open the terminal for your project. Otherwise, you can open the terminal by going to the terminal menu on the top of the screen and selecting new terminal. It will appear on the bottom of your screen
 <br><img src="./README_images/terminal.png"><br>
@@ -20,6 +20,7 @@
 <br><img src="./README_images/liveServer.png"><br>
 - you can activate live server by right clicking inside your index.html file. 
 <br><img src="./README_images/runLiveServer.png"><br>
+- <h3>you will likely have to save your project `ctrl + s` every time you want to see new changes in the live server</h3>
 
 ## HTML and css basics
 
