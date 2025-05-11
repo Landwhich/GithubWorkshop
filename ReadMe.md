@@ -15,9 +15,11 @@
 <br><img src="./README_images/terminal.png"><br>
 - In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url will be different, git clone is the important part here) your url will be whatever url you copied from your fork under the green `<> code` button
 <br><img src="./README_images/gitClone.png"><br>
-- Now your project will be open inside vscode. You will want to use the "live server" extension to view changes to your project in real time. you can activate live server by right clicking inside your index.html file. 
+- Now your project will be open inside vscode. You will want to use the "live server" extension to view changes to your project in real time. 
 - (download live server inside the extensions panel): 
 <br><img src="./README_images/liveServer.png"><br>
+- you can activate live server by right clicking inside your index.html file. 
+<br><img src="./README_images/runLiveServer.png"><br>
 
 ## HTML and css basics
 
