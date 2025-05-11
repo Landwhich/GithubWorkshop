@@ -11,8 +11,10 @@
 <br><img src="./README_images/gitClone.png"><br>
 - Now open VSCode on your computer (look up visual studio code, it will be a blue app). in vscode, click "open folder", then right click insdie the finder "new > folder". After making a new folder, double click and then select "open folder"
 <br><img src="./README_images/vscodeIcon.png"><br>
-- Once you have opened your project: `ctrl + ~`, this will open the terminal for your project
-- In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url may vary, git clone is the important part here) your url will be whatever url you copied from your fork under the green `<> code` button
+- Once you have opened your project: `ctrl + ~`, this will open the terminal for your project. Otherwise, you can open the terminal by going to the terminal menu on the top of the screen and selecting new terminal. It will appear on the bottom of your screen
+<br><img src="./README_images/terminal.png"><br>
+- In the terminal type `git clone https://github.com/Landwhich/GithubWorkshop.git`(your url will be different, git clone is the important part here) your url will be whatever url you copied from your fork under the green `<> code` button
+<br><img src="./README_images/gitClone.png"><br>
 - Now your project will be open inside vscode. You will want to use the "live server" extension to view changes to your project in real time. you can activate live server by right clicking inside your index.html file. 
 - (download live server inside the extensions panel): 
 <br><img src="./README_images/liveServer.png"><br>
